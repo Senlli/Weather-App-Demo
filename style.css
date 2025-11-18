@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef6ff;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: #0077cc;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#weatherResult {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.sunny {
+    background: linear-gradient(to bottom, #ffed8a, #ffcc00);
+}
+
+.cloudy {
+    background: linear-gradient(to bottom, #d7e1ec, #9db0c4);
+}
+
+.rainy {
+    background: linear-gradient(to bottom, #a8c0ff, #3f2b96);
+}
+
+.clear-night {
+    background: linear-gradient(to bottom, #1c1c2d, #000000);
+}
